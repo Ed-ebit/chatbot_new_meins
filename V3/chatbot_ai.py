@@ -113,7 +113,7 @@ def chat():
         results_index = numpy.argmax(results)
         max_wahrsch = numpy.array(results)
         max_value = numpy.max(max_wahrsch)
-#       print(max_value)
+        print(max_value)
         if max_value < 0.76:   
             zufallsantworten = ["Oh wirklich...", "Interessant", "Das kann man so sehen", "LOL Wut?", "Hä? :/",
                                 "Ich verstehe.......nicht XD", "Mmhh", "Naja", "Wovon sprechen Sie?", "Bitte nehmen Sie die Hände von der Tastatur"]
