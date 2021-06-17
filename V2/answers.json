@@ -1,0 +1,9 @@
+{
+    "zufallsantworten": ["Oh wirklich...",
+        "Interessant",
+        "Das kann man so sehen",
+        "Ich verstehe"],
+    "reaktionen": {"hallo": "aber hallo",
+        "geht": "was verstehst du darunter?",
+        "schmeckt": "Ich habe keinen Geschmackssinn."}
+}

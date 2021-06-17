@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block chatbot_ausgabe %}
+    <h1>{% block title %}Willkommen beim Chatbot{% endblock %}</h1>
+    <p>{{ chatbot_label }}</p>
+    <form method="POST">
+        <div class="form-group">
+            <label for="chatbot_input">Bitte geben Sie Ihre Frage ein...</label>
+        </div>
+        <div class="form-group">
+            <input type="text" name="chatbot_input" placeholder="Hier tippen..." class="form-control">
+            <button type="submit" class="btn btn-primary">Los!</button>
+        </div>
+    </form>
+{% endblock %}

@@ -1,0 +1,40 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Wie geht's", "Wie gehts", "Ist da jemand", "Hallo", "Guten Tag"],
+     "responses": ["Hallo, schön dass Sie da sind", "Schön Sie wieder zu sehen", "Hi, wie kann ich helfen?", "Moin Moin"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "Bis später", "Auf Wiedersehen", "Tschüss", "Ciao"],
+     "responses": ["Bis später, danke für den Besuch", "Schönen Tag noch", "Besuchen Sie uns bald wieder"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Danke", "Danke schön", "sehr gut", "Super"],
+     "responses": ["Gerne!", "Jederzeit!", "Bitte gern!"]
+    },
+    {"tag": "info",
+      "patterns": ["Wer seid ihr", "Was kann man kaufen", "Was verkauft ihr", "Was gibt es bei euch", "verkaufen"],
+      "responses": ["Wir sind das Keksimperium!", "Wir verkaufen alle Kekse die es gibt!", "Wir sind Verkäufer von: Schokokeksen, Vanillekeksen, Blaubeerkeksen"]
+    },
+    {"tag": "prices",
+      "patterns": ["Was kostet ein Keks", "Wie teuer sind die Kekse", "Wieviel zahlt man für Kekse", "Wie viel kosten die Kekse", "Wie sind die Preise", "Wie hoch sind die Preise"],
+      "responses": ["Ein Keks kostet 10 Euro. Weil er so gut ist (und grooß)", "10 Euro = 1 Keks", "Nen 10er pro Keks"]
+    },
+    {"tag": "identity",
+      "patterns": ["Wer bist du", "Was kannst du", "Bist du ein Bot", "Computer"],
+      "responses": ["Ich bin der Einkaufsassistent für FAQs", "Ich bin der Chatbot des Keksimperiums", "Ich bin ein Bot"]
+    },
+    {"tag": "hours",
+     "patterns": ["Wann habt ihr offen", "Wie sind die Öffnungszeiten", "Wann öffnet ihr" ],
+     "responses": ["Wir haben täglich von  9-21 Uhr geöffnet", "Unsere Öffnungszeiten sind täglich 9-21 Uhr"]
+    },
+    {"tag": "payments",
+     "patterns": ["Nehmt ihr Kreditkarten", "Akzeptiert ihr Mastercard", "Kann man bei euch nur Bar bezahlen" ],
+     "responses": ["Wir akzeptieren VISA, Mastercard und AMEX", "Wir akzeptieren die meisten Kreditkarten"]
+    },
+    {"tag": "opentoday",
+     "patterns": ["Habt ihr heute offen", "Ist heute geöffnet", "Wie hab ihr heute geöffnet"],
+     "responses": ["Täglich 9-21 Uhr am Start", "9-21 Uhr jawoll!"]
+    }
+  ]
+}
